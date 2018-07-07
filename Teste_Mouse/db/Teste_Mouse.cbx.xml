@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Teste_Mouse">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Teste_Mouse|ps2_mouse:inst1|ps2_transceiver:ps2_transceiver_0|debounce:debounce_ps2_clk|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_gnh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Teste_Mouse|ps2_mouse:inst1|ps2_transceiver:ps2_transceiver_0|debounce:debounce_ps2_data|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_gnh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Teste_Mouse|ps2_mouse:inst1|ps2_transceiver:ps2_transceiver_0|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_roh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Teste_Mouse|ps2_mouse:inst1|ps2_transceiver:ps2_transceiver_0|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_njh.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

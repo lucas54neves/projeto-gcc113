@@ -1,0 +1,18 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x032cd66e: db_acf + 0x1d66e (?acf_end_const_iter_for_acf_variable_type_enum@@YI?AVconst_iterator@?$list@W4ACF_VARIABLE_TYPE_ENUM@@V?$MEM_STL_ALLOCATOR@W4ACF_VARIABLE_TYPE_ENUM@@@@@_Dinkum_std@@XZ + 0x9e)
+	0x032d9f80: db_acf + 0x29f80 (??0ACF_MANAGER@@IAE@XZ + 0x8f0)
+	0x73b97d23: KERNELBASE + 0x107d23 (StrRChrW + 0x2b3)
+	</callstack>
+	<error>Current editor: GED, GED</error>
+	<date>Thu Jul 05 08:58:25 2018</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>Access Violation at 0X032CD66E
+Current editor: GED, GED
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
