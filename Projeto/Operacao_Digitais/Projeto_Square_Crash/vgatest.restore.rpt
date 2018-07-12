@@ -1,0 +1,111 @@
+Restore Archived Project report for vgatest
+Wed Jul 11 20:35:47 2018
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Wed Jul 11 20:35:47 2018 ;
+; Revision Name                   ; vgatest                               ;
+; Top-level Entity Name           ; vgatest                               ;
+; Family                          ; FLEX10K                               ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/lucas/Downloads/SquareCrash.qar' into the 'C:/Users/lucas/OneDrive/Documents/Ufla/Semestre 2018-1/GCC113 - Circuitos Digitais/Projeto final/Operacao_Digitais/Projeto_Square_Crash/' directory
+Info: Generated report 'vgatest.restore.rpt'
+Info: Evaluation of Tcl script c:/altera/90sp2/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 162 megabytes
+    Info: Processing ended: Wed Jul 11 20:35:47 2018
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
+
+
++-------------------------+
+; Files Restored          ;
++-------------------------+
+; File Name               ;
++-------------------------+
+; Adder.bsf               ;
+; Adder.cmp               ;
+; Adder.qip               ;
+; Adder.vhd               ;
+; const190.bsf            ;
+; const190.cmp            ;
+; const190.qip            ;
+; const190.vhd            ;
+; const270.bsf            ;
+; const270.cmp            ;
+; const270.qip            ;
+; const270.vhd            ;
+; const290.bsf            ;
+; const290.cmp            ;
+; const290.qip            ;
+; const290.vhd            ;
+; const370.bsf            ;
+; const370.cmp            ;
+; const370.qip            ;
+; const370.vhd            ;
+; contadorMOD480.bsf      ;
+; contadorMOD480.cmp      ;
+; contadorMOD480.qip      ;
+; contadorMOD480.vhd      ;
+; counterMOD640.bsf       ;
+; counterMOD640.cmp       ;
+; counterMOD640.qip       ;
+; counterMOD640.vhd       ;
+; divfreq.vhd             ;
+; lessthan.bsf            ;
+; lessthan.cmp            ;
+; lessthan.qip            ;
+; lessthan.vhd            ;
+; vgadrive.vhd            ;
+; vgatest.bdf             ;
+; vgatest.qpf             ;
+; vgatest.qsf             ;
+; assignment_defaults.qdf ;
++-------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

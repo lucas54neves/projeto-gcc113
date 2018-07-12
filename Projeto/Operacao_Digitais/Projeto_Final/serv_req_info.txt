@@ -1,0 +1,30 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>GTO</sub_system>
+	<file>/quartus/gcl/gto/gto_text.cpp</file>
+	<line>665</line>
+	<callstack>
+	0x0231b3e4: GCL_GTO + 0xb3e4 (?get_text_extent@GTO_TEXT@@QBI?AVCSize@@PAVCDC@@@Z + 0xb4)
+	</callstack>
+	<error>::GetTextExtentPoint32(dc-&gt;m_hAttribDC, this-&gt;m_string.c_str(), str_len, &amp;result)</error>
+	<date>Wed Jul 11 21:37:51 2018</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>::GetTextExtentPoint32(dc-&gt;m_hAttribDC, this-&gt;m_string.c_str(), str_len, &amp;result)
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>GTO</sub_system>
+	<file>/quartus/gcl/gto/gto_text.cpp</file>
+	<line>665</line>
+	<callstack>
+	0x046db3e4: GCL_GTO + 0xb3e4 (?get_text_extent@GTO_TEXT@@QBI?AVCSize@@PAVCDC@@@Z + 0xb4)
+	</callstack>
+	<error>::GetTextExtentPoint32(dc-&gt;m_hAttribDC, this-&gt;m_string.c_str(), str_len, &amp;result)</error>
+	<date>Thu Jul 12 07:53:54 2018</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>::GetTextExtentPoint32(dc-&gt;m_hAttribDC, this-&gt;m_string.c_str(), str_len, &amp;result)
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+

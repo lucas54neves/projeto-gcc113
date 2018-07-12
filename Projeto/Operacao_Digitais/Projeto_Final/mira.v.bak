@@ -1,0 +1,33 @@
+module mira (clk, nrst, updown, cnt_en, row, column, s);
+	
+	input clk, nrst, updown, cnt_en;
+	input [9:0] row, column;
+	output reg s;
+	integer count = 0;
+	
+	always @*
+	begin
+		if((row < 230 & 200 < row & column < count + 100 & count + 70 < column) |
+		   (row < 265 & 230 < row & column < count + 85 & count < column))
+			s = 1;
+		else
+			s = 0;
+	end
+	
+	always @(posedge clk)
+	begin
+		if(nrst == 0)
+			count = 0;
+		else if(cnt_en == 1)
+			if(updown == 1)
+				count = count + 1;
+			else if(updown == 0)
+				count = count - 1;
+				
+		if(count == 640)
+			count = 0;
+		else if(count == -1)
+			count = 640;
+	end
+	
+endmodule 
